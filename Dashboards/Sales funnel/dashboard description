@@ -27,7 +27,7 @@ This report contains several dashboards in different segments:
  * Funnel by traffic channels: A dashboard with a more detailed breakdown of traffic sources. (isn’t mentioned on github)
 
 
-###What is a Lead?
+What is a Lead?
 
 A lead is a user's left phone number on one of our landings or an unfinished process of self-registration by the user for a trial lesson. 
 This funnel visually resembles the existing funnel (request - initial registration - first purchase) but has many nuances that differentiate them. Below is a description of these nuances:
