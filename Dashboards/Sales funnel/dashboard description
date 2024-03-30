@@ -1,41 +1,33 @@
-Портфолио 
-
-
-
-- Пример дашбордов в Tableau (сами дашборды + описание того, как работает отчет)
-- Пример кода на SQL (витрина для воронки)
-- Пример кода на Python (какой-нибудь из отчетов: либо отчет по явке, либо отчет для бухгалтерии)
-
-
-Описание отчета “Воронка продаж” 
-
 Hello everyone!
+
 We are pleased to announce a new funnel: lead - request (registration for an introductory lesson) - successful introductory lesson (SIL) - first purchase.
 What's included in this description:
-* Overall report structure
-* What is a lead
-* "Breakdown on periods” filter
-* "Traffic source toggle” filter
-* “Enrolment type: by user / by call center” filter
-* "Lead type: new / current” filter
-* Logic of matching leads to requests
-* Examples of funnel operation
-* Reasons for discrepancies with Google Docs:
+
+ * Overall report structure
+ * What is a lead
+ * "Breakdown on periods” filter
+ * "Traffic source toggle” filter
+ * “Enrolment type: by user / by call center” filter
+ * "Lead type: new / current” filter
+ * Logic of matching leads to requests
+ * Examples of funnel operation
+ * Reasons for discrepancies with Google Docs:
 
 
 Overall Report Structure
 
 This report contains several dashboards in different segments:
-* General funnel: an overall view of the funnel with all the filters listed below.
-* Funnel by school types: primary, middle, high, undefined.
-* Funnel by traffic types: internal, external, organic, "floctory”, telemarketing, undefined.
-* Funnel by lead types: The funnel segmented by how the introductory session was booked: by user or via the call center, and whether it was the first booking or repeated. (isn’t mentioned on github)
-* Funnel by utm tags of leads: features the "traffic source" segment, as well as filters that allow for the selection of specific UTM tags collected at the lead creation stage. (isn’t mentioned on github)
-* Funnel by utm tags of requests: Features the "traffic source" segment, as well as filters that allow for the selection of specific UTM tags collected at the request creation stage. (isn’t mentioned on github)
-* Funnel by traffic channels: A dashboard with a more detailed breakdown of traffic sources. (isn’t mentioned on github)
+
+ * General funnel: an overall view of the funnel with all the filters listed below.
+ * Funnel by school types: primary, middle, high, undefined.
+ * Funnel by traffic types: internal, external, organic, "floctory”, telemarketing, undefined.
+ * Funnel by lead types: The funnel segmented by how the introductory session was booked: by user or via the call center, and whether it was the first booking or repeated. (isn’t mentioned on github)
+ * Funnel by utm tags of leads: features the "traffic source" segment, as well as filters that allow for the selection of specific UTM tags collected at the lead creation stage. (isn’t mentioned on github)
+ * Funnel by utm tags of requests: Features the "traffic source" segment, as well as filters that allow for the selection of specific UTM tags collected at the request creation stage. (isn’t mentioned on github)
+ * Funnel by traffic channels: A dashboard with a more detailed breakdown of traffic sources. (isn’t mentioned on github)
 
 
-What is a Lead? 
+<b>What is a Lead?<b> 
 
 A lead is a user's left phone number on one of our landings or an unfinished process of self-registration by the user for a trial lesson. 
 This funnel visually resembles the existing funnel (request - initial registration - first purchase) but has many nuances that differentiate them. Below is a description of these nuances:
