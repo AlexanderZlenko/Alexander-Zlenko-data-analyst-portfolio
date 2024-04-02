@@ -1,4 +1,4 @@
-Hello everyone!
+dHello everyone!
 
 We are pleased to announce a new funnel: lead - request (registration for an introductory lesson) - successful introductory lesson (SIL) - first purchase.
 What's included in this description:
@@ -42,8 +42,7 @@ This functionality is crucial for cases where a request is made without a lead, 
 Example:
 Let's examine the impact of the "Period Breakdown" filter using student 643 as an example.
 
-Screenshot_1 (personal_stuff/portfolio/BI)
-![Some text](screenshots/screenshot_1.png)
+![](screenshots/screenshot_1.png)
 
 As we see in the "lead_creation_date" column, there is only one unique date - August 31, 2022. The "trial_lesson_creation_date" column shows a greater variety of dates. It's also important to note the "subject_name" column, which includes two subjects: math_middle_school and english_middle_school. 
 
