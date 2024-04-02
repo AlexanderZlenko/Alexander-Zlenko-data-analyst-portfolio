@@ -27,13 +27,13 @@ This report contains several dashboards in different segments:
  * Funnel by traffic channels: A dashboard with a more detailed breakdown of traffic sources. (isn’t mentioned on github)
 
 
-**What is a Lead?**
+<h3>What is a Lead?</h3>
 
 A lead is a user's left phone number on one of our landings or an unfinished process of self-registration by the user for a trial lesson. 
 This funnel visually resembles the existing funnel (request - initial registration - first purchase) but has many nuances that differentiate them. Below is a description of these nuances:
 
 
-**"Breakdown on periods" Filter**
+<h3>"Breakdown on periods" Filter</h3>
 
 Firstly, note the "Breakdown on periods" filter, which includes two values: lead and request. Choosing "lead" bases the funnel on the lead creation date, while "request" uses the request creation date.
 
@@ -55,7 +55,7 @@ If "request" is selected in the "Breakdown on periods" filter, Tableau will gene
 ![](screenshots/screenshot_3.png)
 
 
-**"Traffic source toggle” filter**
+<h3>"Traffic source toggle” filter</h3>
 
 Our database collects utm tag information to determine which channel the user came to us from. We log this information at two stages: 
 - at the stage when a user leaves a lead on a landing page
@@ -83,7 +83,7 @@ Also a distinctive feature from the dashboard with the "quest - purchase" funnel
 Today a user can sign up for a trial lesson by themself or they can leave their contact details and a call center operator will call them back and sign them up for a trial lesson. Before summer 2020 users signed up for a trial lesson only by themself. After that we reorganised users trial lessons sign up flow and most of landings got the only way to make a trial lesson sign up - via call center operators. The filter ‘lead type: new/current’ allows you to separate users into those who signed up on their own and those who was signed up by a call center.    
 
 
-**"Lead type: new / current” filter**
+<h3>"Lead type: new / current” filter</h3>
 
 From the name it is clear that the filter divides users into those who leave a lead for the first time and those who have previously left either a lead or created a request. 
 
@@ -97,7 +97,7 @@ The filter implies the following values:
 * by_operator: other - other cases that do not covered by the above criteria. 
 
 
-**Logic of matching a lead to a request**
+<h3>Logic of matching a lead to a request</h3>
 
 Joining a lead to a request is somewhat counterintuitive: the script first creates the second stage of the funnel (request) and then joins the first stage (lead) to it. This joining occurs according to the following parameters: 
 
@@ -105,7 +105,7 @@ Joining a lead to a request is somewhat counterintuitive: the script first creat
 - looking within two weeks before the creation of a trial lesson: this time limit is necessary to avoid pulling leads that the user may have left a long time ago.  
 
 
-**Examples of sales funnel operation**
+<h3>Examples of sales funnel operation</h3>
 
  Let's look at the most common situations with our users from a sales funnel perspective. 
 
@@ -147,7 +147,7 @@ Note: all 10 leads are de-duplicated into 1 because they were created on the sam
 
 Reasons for the difference with the google doc
 
-**Notes**
+<h3>Notes</h3>
 
 Additional logic has been added to the dashboard to ensure that the funnel reflects the actual conversion to a completed trial lesson in the current month. 
 
