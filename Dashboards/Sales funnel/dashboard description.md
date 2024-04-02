@@ -14,7 +14,7 @@ What's included in this description:
  * Notes
 
 
-**Overall Report Structure**
+<h3>Overall Report Structure</h3>
 
 This report contains several dashboards in different segments:
 
