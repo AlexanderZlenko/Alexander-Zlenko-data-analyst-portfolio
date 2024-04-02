@@ -1,4 +1,4 @@
-dHello everyone!
+**Hello everyone!**
 
 We are pleased to announce a new funnel: lead - request (registration for an introductory lesson) - successful introductory lesson (SIL) - first purchase.
 What's included in this description:
