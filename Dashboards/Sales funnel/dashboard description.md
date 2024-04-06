@@ -57,11 +57,11 @@ If "request" is selected in the "Breakdown on periods" filter, Tableau will gene
 
 <h3>"Traffic source toggle” filter</h3>
 
-Our database collects utm tag information to determine which channel the user came to us from. We log this information at two stages: 
-- at the stage when a user leaves a lead on a landing page
-- at the stage when a user enrolls for the first trial lesson, i.e. actually registers on Uchi.Doma web site. 
+Our database collects utm tag information to determine which channel a user came to our web site from. We log this information at two stages: 
+- at the stage when a user leaves its contact information on Uchi.Doma landing pages (this stage is called - 'leads created')
+- at the stage when a user enrolls for the first trial lesson, i.e. actually registers on Uchi.Doma web site (this stage is called - 'request created') 
 
-Utm tags at these stages may be the same, or they may be different. Depending on the task, you may need information about the channel of attraction both at the lead stage and at the requester stage. This filter allows you to choose what will be the basis for determining the channel of traffic attraction. 
+Utm tags at these stages may be the same, or they may be different. Depending on the task, you may need information about the channel of attraction both at the lead stage and at the request stage. This filter allows you to choose what will be the basis for determining the channel of traffic attraction. 
 
 Examples of distinction: 
 
