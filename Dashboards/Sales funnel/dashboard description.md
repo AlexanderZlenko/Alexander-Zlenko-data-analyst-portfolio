@@ -1,6 +1,6 @@
 <h1>Hello everyone!</h1>
 
-We are pleased to announce a new funnel: lead - request (registration for an introductory lesson) - successful introductory lesson (SIL) - first purchase.
+We are pleased to announce a new funnel: lead - request (registration for a trial lesson) - successful trial lesson - first purchase.
 What's included in this description:
 
  * Overall report structure
